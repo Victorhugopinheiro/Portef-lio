@@ -30,7 +30,7 @@ const technologiesContainer = () => {
                         {tech.icon}
                         <div>
                             <h3>{tech.name}</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                            <p></p>
                         </div>
                     </div>
 

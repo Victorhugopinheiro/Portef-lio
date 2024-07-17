@@ -7,17 +7,18 @@ import '../styles/components/sidebar.sass'
 import InformationContainer from './InformationContainer';
 
 const Sidebar = () => {
-    return <aside id="sidebar">
+    return (
+    <aside id="sidebar">
     <img src={Avatar} alt="Victor Hugo" />
     <p className="title">Desenvolvedor</p>
     <SocialNetworks/>
     <InformationContainer/>
 
-    <p>Informações de contato</p>
     <a href="" className="btn">
         Download Currículo
     </a>
     </aside>
+    )
 };
 
 export default Sidebar;
